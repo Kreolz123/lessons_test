@@ -7,7 +7,7 @@ var money = prompt("Ваш бюджет на месяц?"),
     question3 = prompt("Во сколько обойдется?","");
 
 var appData = {
-    money:money,
+    budget:money,
     timeData:time,
     expenses: {
     },
@@ -18,4 +18,4 @@ var appData = {
 appData.expenses.question = question1;
 appData.expenses.question2 = question3;
 
-alert(appData.money);
+alert(appData.budget / 30);
